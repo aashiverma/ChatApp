@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             //   return SplashScreen();
             // }
             if (userSnapshot.hasData) {
-              //return ChatScreen();
+              return FinalChatScreen();
             }
             return AuthScreen();
           }),
